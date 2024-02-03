@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption and Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Encryption and Decryption</h1>
+        <form method="post">
+            <textarea name="text" placeholder="Enter your text"></textarea>
+            <div>
+                <button type="submit" name="encrypt">Encrypt</button>
+                <button type="submit" name="decrypt">Decrypt</button>
+            </div>
+            <textarea name="result" placeholder="Result" readonly>{{ result }}</textarea>
+        </form>
+    </div>
+</body>
+</html>
